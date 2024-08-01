@@ -1,0 +1,209 @@
+ul,ol { list-style: none;} 
+body {background: #fff;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: #434455;
+}
+
+a { text-decoration: none; }
+
+.logo { font-weight: 700;
+    font-size: 18px;
+    
+     line-height: 21px; 
+     line-height: 1.17;
+    
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    
+    }
+
+    .logo-part { color:#2E2F42}
+
+    .nav-link { font-weight: 500;
+        font-size: 16px;
+       line-height: 24px; 
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;}
+
+        .nav-link:hover,
+        .nav-link:focus { font-weight: 500;
+            font-size: 16px;
+            line-height: 24px; 
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #404bbf;}
+
+            .nav-link:active{font-weight: 500;
+                font-size: 16px;
+                
+               line-height: 24px; 
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+                color: #404bbf; }
+            
+.contacts { font-style: normal}
+            .contacts-link {font-weight: 400;
+                font-size: 16px;
+                
+                line-height: 24px; 
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+                color: #434455;
+                 }
+                 .contacts-link:hover,
+                 .contacts-link:focus { font-weight: 500;
+                     font-size: 16px;
+                     line-height: 24px; 
+                     line-height: 1.5;
+                     letter-spacing: 0.02em;
+                     color: #404bbf;}
+                     /* 1 */
+
+                     .first-section {background: #2e2f42; }
+
+                     .first-section-titel {
+                        font-weight: 700;
+                        font-size: 56px;
+                         line-height: 60px; 
+                        line-height: 1.07;
+                        letter-spacing: 0.02em;
+                        text-align: center;
+                        color: #fff;
+                        
+                         }
+                         .button-order-service { 
+                            font-weight: 500;
+                            font-size: 16px;
+                            
+                           line-height: 24px; 
+                            line-height: 1.5;
+                            letter-spacing: 0.04em;
+                            color: #fff;
+                            background: #4d5ae5; 
+                            font-family: "Roboto", sans-serif ;
+                            cursor: pointer ;
+                            }
+
+                            .button-order-service:hover 
+                         { font-weight: 500;
+                                font-size: 16px;
+                                
+                               line-height: 24px; 
+                                line-height: 1.5;
+                                letter-spacing: 0.04em;
+                                color: #fff; 
+                                background-color: #404bbf;
+                              
+                                }
+
+                                .button-order-service:focus {background-color: #404BBF ; }
+
+                                
+
+                                /* 1 */
+
+                               .advantages { background: #fff; }
+
+                               .advantages-subtitel { font-weight:500;
+                                font-size: 20px;
+                               line-height: 24px; 
+                                line-height: 1.2;
+                                letter-spacing: 0.02em;
+                                color: #2e2f42;
+                                background-color: #FFFFFF }
+
+                                .advantages-item { font-weight:500;
+                                    font-size: 20px;
+                                   line-height: 24px; 
+                                    line-height: 1.2;
+                                    letter-spacing: 0.02em;
+                                    color: #2e2f42;  }
+
+
+                                .advantages-text {font-weight: 400;
+                                    font-size: 16px;
+                                     line-height: 24px; 
+                                    line-height: 1.5;
+                                    letter-spacing: 0.02em;
+                                    color: #434455; 
+                                    text-transform: capitalize }
+
+                                    .team { background-color: #f4f4fd; 
+
+                                        }
+                                       .team-item  { background-color: #FFFFFF }
+                                       .team-list{ background-color: #FFFFFF  }
+
+                                    .team-titel {font-weight:700;
+                                        font-size: 36px;
+                                       
+                                         line-height: 40px; 
+                                        line-height: 1.11;
+                                        letter-spacing: 0.02em;
+                                        text-align: center;
+                                        color: #2e2f42;
+                                        text-transform: capitalize
+                                        
+                                       }
+                                        .team-subtitle { 
+                                        
+                                            background-color: #FFFFFF ;
+                                            font: 500 20px / 1.2 "Roboto", sans-serif;
+                                            letter-spacing: 0.02em;
+                                            text-align: center;
+                                            color: #2e2f42;}
+                                            .team-text {font: 400 16px / 1.5 "Roboto", sans-serif;
+                                                letter-spacing: 0.02em;
+                                                text-align: center;
+                                                color: #434455; }
+
+                                               .portfolio { background-color: #FFFFFF ;}
+                                                .portfolio-titel { background-color: #FFFFFF;
+                                                    
+                                                    
+                                                    text-transform: capitalize;  
+                                                    /* что єто? */
+                                                    font: 700 36px / 1.11 "Roboto", sans-serif;
+                                                    letter-spacing: 0.02em;
+                                                    text-align: center;
+                                                    color: #2e2f42;
+                                                }
+                                              
+                                                .portfolio-subtitle {font-weight: 500;
+                                                    font-size: 20px;
+                                                     line-height: 24px; 
+                                                    line-height: 1.2;
+                                                    letter-spacing: 0.02em;
+                                                    color: #2e2f42;
+                                                    background-color: #FFFFFF;
+                                                }
+                                                .portfolio-text { font-weight: 400;
+                                                    font-size: 16px;
+                                                   line-height: 24px; 
+                                                    line-height: 1.5;
+                                                    letter-spacing: 0.02em;
+                                                    color: #434455;
+                                                }
+                                                .footer { background: #2e2f42; }
+                                                .footer-logo-text { font-weight: 400;
+                                                    font-size: 16px;
+                                                    line-height: 24px; 
+                                                    line-height: 1.5;
+                                                    letter-spacing: 0.02em;
+                                                    color: #f4f4fd;
+                                                    font-family: "Raleway", sans-serif; }
+
+                                                    .footer-logo-part {  font-weight: 700;
+                                                        font-size: 18px;
+                                                        
+                                                        line-height: 21px; 
+                                                        line-height: 1.17;
+                                                        letter-spacing: 0.03em;
+                                                        text-transform: uppercase;
+                                                        color: #f4f4fd;
+                                                        
+                                                        font-family: "Raleway", sans-serif;}
