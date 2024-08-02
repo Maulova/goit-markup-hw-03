@@ -20,6 +20,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 a { text-decoration: none; }
 
+img{ display: block;}
+
 /* common */
 
 
@@ -102,22 +104,20 @@ a { text-decoration: none; }
             
 .contacts { font-style: normal;
 margin-left: auto;}
-            .contacts-link {
-                font-weight: 400;
-                font-size: 16px;
+.contacts-link {
+font-weight: 400;font-size: 16px;
                 
-                line-height: 24px; 
-                line-height: 1.5;
-                letter-spacing: 0.02em;
-                color: #434455;
-                display: block;
-              
-                padding: 24px;
-                 }
+ line-height: 24px; 
+ line-height: 1.5;
+letter-spacing: 0.02em;
+  color: #434455;
+display: block;         
+ padding: 24px;
+  }
 
-                 .contacts-list { display: flex;
-                align-items: center;
-            gap:40px}
+.contacts-list { display: flex;
+align-items: center;
+ gap:40px}
                  .contacts-link:hover,
                  .contacts-link:focus { font-weight: 500;
                      font-size: 16px;
@@ -127,49 +127,91 @@ margin-left: auto;}
                      color: #404bbf;}
                      /* 1 */
 
-                     .first-section {background: #2e2f42; }
 
-                     .first-section-titel {
-                        font-weight: 700;
-                        font-size: 56px;
-                         line-height: 60px; 
-                        line-height: 1.07;
-                        letter-spacing: 0.02em;
-                        text-align: center;
-                        color: #fff;
-                        
-                         }
-                         .button-order-service { 
-                            font-weight: 500;
-                            font-size: 16px;
-                            
-                           line-height: 24px; 
-                            line-height: 1.5;
-                            letter-spacing: 0.04em;
-                            color: #fff;
-                            background: #4d5ae5; 
-                            font-family: "Roboto", sans-serif ;
-                            cursor: pointer ;
-                            }
 
-                            .button-order-service:hover 
-                         { font-weight: 500;
-                                font-size: 16px;
-                                
-                               line-height: 24px; 
-                                line-height: 1.5;
-                                letter-spacing: 0.04em;
-                                color: #fff; 
-                                background-color: #404bbf;
-                              
-                                }
+                     /*  hero */
 
-                                .button-order-service:focus {background-color: #404BBF ; }
 
-                                
+.first-section-titel {
+ 
+  min-width: 596px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px; 
+ line-height: 1.07;
+ letter-spacing: 0.02em;
+color: #fff;
+  margin-bottom: 48px; 
+ }
+.container-hero {
+display: flex;
 
+ background-color: #2E2F42;
+ padding: 188px 0;
+ 
+
+ 
+ flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+
+.container-btn {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none
+  
+}
+
+
+.button-order-service{ display: flex;
+
+border-radius: 4px;
+padding: 16px 32px;
+width: 169px;
+height: 56px;
+align-items: center;
+}
+
+
+.first-section { display:flex;
+justify-content: center;
+align-items: center;
+height: 598px;                  
+ background: #2e2f42; }
+
+
+.button-order-service { 
+font-weight: 500;
+font-size: 16px;                      
+line-height: 24px; 
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+background: #4d5ae5; 
+font-family: "Roboto", sans-serif ;
+cursor: pointer ;
+border-radius: 4px;
+}
+
+
+
+.button-order-service:hover 
+ { font-weight: 500;
+font-size: 16px;        
+line-height: 24px; 
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff; 
+background-color: #404bbf;   
+ }
+
+.button-order-service:focus {background-color: #404BBF ; }
+
+                                /*  hero */
                                 /* 1 */
-
+                                
                                .advantages { background: #fff; }
 
                                .advantages-subtitel { font-weight:500;
