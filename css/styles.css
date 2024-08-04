@@ -131,7 +131,8 @@ align-items: center;
 
                      /*  hero */
 
-.first-section {}
+.first-section { padding: 188px 0 ; }
+
 .first-section-titel {
 max-width: 496px;
 font-weight: 700;
@@ -205,7 +206,7 @@ background-color: #404bbf;
 .container {
 
 }
-
+.advantages {padding: 120px 0 }
 /* .visually-hidden for h2 */
 
 .visually-hidden {
