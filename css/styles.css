@@ -285,7 +285,11 @@ width: calc((100% - 72px) / 4);
 
 .team-item  { background-color: #FFFFFF }
 
-.team-list{ background-color: #FFFFFF  }
+.team-list{
+ background-color: #FFFFFF;
+display: flex; 
+gap: 24px; 
+ }
 
  .team-titel {
 font-weight:700;
