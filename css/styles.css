@@ -283,9 +283,12 @@ width: calc((100% - 72px) / 4);
  .team-container {   
  }
 
-.team-item  { background-color: #FFFFFF }
+.team-item  { background-color: #FFFFFF ;
+display: flex; 
+gap: 24px
+}
 
-.team-list{
+.team-list {
  background-color: #FFFFFF;
 display: flex; 
 gap: 24px; 
