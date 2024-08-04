@@ -278,7 +278,7 @@ width: calc((100% - 72px) / 4);
  .container {
 
  }
- .team-container {   
+ .team-container {  padding: 32px 0; 
  }
 
 .team-item  { background-color: #FFFFFF ;
@@ -304,8 +304,7 @@ font-size: 36px;
  text-align: center;
  color: #2e2f42;
  text-transform: capitalize ;
-
- margin-bottom: 8px 
+ margin-bottom: 8px ;
    }
 
 
