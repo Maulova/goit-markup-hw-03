@@ -421,9 +421,7 @@ margin-bottom: 8px ;
 
 .footer { background: #2e2f42;
     padding: 100px 0 ; }
-    .box-footer-tex {
- max-width:264px ;
-    }
+    
 
     .logo-footer {
         display: inline-block;
@@ -435,7 +433,8 @@ margin-bottom: 8px ;
   line-height: 1.5;
  letter-spacing: 0.02em;
  color: #f4f4fd;
-    font-family: "Raleway", sans-serif; }
+    font-family: "Raleway", sans-serif;
+    max-width:264px; }
 
 .footer-logo-part {  font-weight: 700;
 font-size: 18px;   
