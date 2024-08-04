@@ -17,7 +17,6 @@ h1, h2, h3, h4, h5, h6, p {
   
 }
 
-
 a { text-decoration: none; }
 
 img{ display: block;}
@@ -38,8 +37,7 @@ img{ display: block;}
 }
  
 .header-container { display: flex;
-    align-items: center;
-    
+    align-items: center;  
 }
 
 .nav {
@@ -86,21 +84,22 @@ img{ display: block;}
 
 }
 
-        .nav-link:hover,
-        .nav-link:focus { font-weight: 500;
-            font-size: 16px;
-            line-height: 24px; 
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: #404bbf;}
+  .nav-link:hover,
+  .nav-link:focus { font-weight: 500;
+      font-size: 16px;
+      line-height: 24px; 
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: #404bbf; }
 
-            .nav-link:active{font-weight: 500;
-                font-size: 16px;
-                
-               line-height: 24px; 
-                line-height: 1.5;
-                letter-spacing: 0.02em;
-                color: #404bbf; }
+
+.nav-link:active{font-weight: 500;
+          font-size: 16px;
+          
+         line-height: 24px; 
+          line-height: 1.5;
+          letter-spacing: 0.02em;
+          color: #404bbf; }
             
 .contacts { font-style: normal;
 margin-left: auto;}
@@ -157,11 +156,11 @@ padding-bottom: 188px;
 
 
 .first-section {
- display:flex;
+display:flex;
 justify-content: center;
 align-items: center;
 height: 598px;                  
- background: #2e2f42; }
+background: #2e2f42; }
 
 
 .button-order-service { 
@@ -175,7 +174,6 @@ background: #4d5ae5;
 font-family: "Roboto", sans-serif ;
 cursor: pointer ;
 border-radius: 4px;
-
 display: block;
 min-width: 169px; 
 height: 56px;
@@ -198,9 +196,9 @@ background-color: #404bbf;
 
 .button-order-service:focus {background-color: #404BBF ; }
 
-                                /*  hero */
-                                /* 1 */
-                                
+   /*  hero */
+
+
 
                                 /*advantage*/
 
@@ -224,6 +222,7 @@ background-color: #404bbf;
 .container-advantages 
   {
     padding: 120px 0;
+
  }
                 
 .advantages { background: #fff; }
@@ -234,16 +233,20 @@ background-color: #404bbf;
     list-style: none;
     padding: 0;
     margin: 0;
+   
 
 }
-  .advantages-subtitel { font-weight:500;
+  .advantages-subtitel {
+    display: flex;
+    font-weight:500;
 font-size: 20px;
 line-height: 24px; 
- line-height: 1.2;
- letter-spacing: 0.02em;
- color: #2e2f42;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
 background-color: #FFFFFF ;
-margin-bottom: 8px; }
+margin-bottom: 8px;
+ }
 
 .advantages-item { 
 display: flex;
@@ -256,10 +259,12 @@ color: #2e2f42;
 align-items: center;
 gap: 24px; 
 width: calc((100% - 72px) / 4);
+flex-direction: column;
+align-items: flex-start;
+
+
 
 }
-
-/*advantage*/
 
 
  .advantages-text
@@ -269,7 +274,9 @@ font-size: 16px;
  line-height: 1.5;
  letter-spacing: 0.02em;
   color: #434455; 
-  text-transform: capitalize }
+  text-transform: capitalize;
+  justify-content: flex-start; }
+/*advantage*/
 
 /*team*/
 .team { background-color: #f4f4fd; 
@@ -278,20 +285,22 @@ font-size: 16px;
 
 
 
- .team-container {  
-padding: 32px 0;  
- }
+
 
  .name-first{
     padding: 32px 0;
+    width: 100%; box-sizing: border-box; 
  }
 
 
  .team-container 
 {
+   
     padding: 32px 0;
     text-align: center;
     margin-bottom: 8px ;
+    border-radius: 0 0 4px 4px;
+    
 
  }
 
@@ -300,14 +309,23 @@ display: flex;
 gap: 24px;
 border-radius: 0px 0px 4px 4px; 
 width: calc((100% - 72px) / 4); 
+flex-direction: column
+
 }
 
 .team-list {
- background-color: #FFFFFF;
+
 display: flex; 
 gap: 24px; 
+justify-content: space-between;
+
 
  }
+
+ .img-team {max-width: 100%;}
+
+ .team-foto { max-width: 100%;
+    height: auto; }
 
  .team-titel {
 font-weight:700;
@@ -322,6 +340,14 @@ font-size: 36px;
 
    }
 
+   .team-member {
+    display: flex;
+    flex-direction: column; align-items: center;
+    
+  }
+
+  .team-img {  display: flex;
+    flex-direction: column; align-items: center; }
 .team-subtitle 
 {                             
 background-color: #FFFFFF ;
@@ -356,13 +382,16 @@ text-align: center;
     padding-bottom: 120px;
     display: flex;
     width: 1128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
 
   }
 
 
 .portfolio { background-color: #FFFFFF ;}
 
-
+.container-portfolio-titel{ }
 
 .portfolio-titel { 
 
