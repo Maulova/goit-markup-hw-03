@@ -293,6 +293,7 @@ border-radius: 0px 0px 4px 4px;
  background-color: #FFFFFF;
 display: flex; 
 gap: 24px; 
+width: calc((100% - 72px) / 4); 
  }
 
  .team-titel {
@@ -312,8 +313,19 @@ font-size: 36px;
 background-color: #FFFFFF ;
 font: 500 20px / 1.2 "Roboto", sans-serif;
 letter-spacing: 0.02em;
- text-align: center;
+text-align: center;
 color: #2e2f42;
+
+ }
+
+.container {
+    padding: 32px 0;
+    text-align: center;
+    margin-bottom: 8px ;
+
+ }
+
+ .name-first { 
 
  }
 
