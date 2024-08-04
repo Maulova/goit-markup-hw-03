@@ -261,6 +261,8 @@ width: calc((100% - 72px) / 4);
 }
 
 /*advantage*/
+
+
                  .advantages-text
                  {font-weight: 400;
                       font-size: 16px;
@@ -270,35 +272,41 @@ width: calc((100% - 72px) / 4);
                      color: #434455; 
                      text-transform: capitalize }
 
+/*team*/
+.team { background-color: #f4f4fd; 
+ padding: 120px 0;
+ }
+ .container
+ .team-container {   
+ }
 
-                                    .team { background-color: #f4f4fd; 
+    .team-item  { background-color: #FFFFFF }
+  .team-list{ background-color: #FFFFFF  }
 
-                                        }
-                                       .team-item  { background-color: #FFFFFF }
-                                       .team-list{ background-color: #FFFFFF  }
-
-                                    .team-titel {font-weight:700;
+ .team-titel {font-weight:700;
                                         font-size: 36px;
-                                       
-                                         line-height: 40px; 
+   
+     line-height: 40px; 
                                         line-height: 1.11;
-                                        letter-spacing: 0.02em;
-                                        text-align: center;
-                                        color: #2e2f42;
-                                        text-transform: capitalize
-                                        
-                                       }
-                                        .team-subtitle { 
-                                        
-                                            background-color: #FFFFFF ;
-                                            font: 500 20px / 1.2 "Roboto", sans-serif;
-                                            letter-spacing: 0.02em;
-                                            text-align: center;
-                                            color: #2e2f42;}
-                                            .team-text {font: 400 16px / 1.5 "Roboto", sans-serif;
-                                                letter-spacing: 0.02em;
-                                                text-align: center;
-                                                color: #434455; }
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize
+    
+   }
+      .team-subtitle {                             
+background-color: #FFFFFF ;
+font: 500 20px / 1.2 "Roboto", sans-serif;
+ letter-spacing: 0.02em;
+     text-align: center;
+    color: #2e2f42;
+    margin-bottom: 72px;
+    }
+         .team-text {font: 400 16px / 1.5 "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  text-align: center;
+ color: #434455; }
+  /*team*/
 
                                                .portfolio { background-color: #FFFFFF ;}
                                                 .portfolio-titel { background-color: #FFFFFF;
