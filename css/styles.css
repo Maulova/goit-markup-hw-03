@@ -207,7 +207,7 @@ background-color: #404bbf;
 }
 
 /* .visually-hidden for h2 */
-/*
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -217,7 +217,7 @@ background-color: #404bbf;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0; } 
-   */
+   
 
 .container-advantages 
   {
