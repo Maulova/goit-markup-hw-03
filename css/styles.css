@@ -274,10 +274,11 @@ width: calc((100% - 72px) / 4);
 /*team*/
 .team { background-color: #f4f4fd; 
  padding: 120px 0;
- }
- .container {
 
  }
+
+
+
  .team-container {  
 padding: 32px 0;  
  }
@@ -346,34 +347,63 @@ text-align: center;
 
   /*team*/
 
-                                               .portfolio { background-color: #FFFFFF ;}
-                                                .portfolio-titel { background-color: #FFFFFF;
-                                                    
-                                                    
-                                                    text-transform: capitalize;  
-                                                    /* что єто? */
-                                                    font: 700 36px / 1.11 "Roboto", sans-serif;
-                                                    letter-spacing: 0.02em;
-                                                    text-align: center;
-                                                    color: #2e2f42;
-                                                }
-                                              
-                                                .portfolio-subtitle {font-weight: 500;
-                                                    font-size: 20px;
-                                                     line-height: 24px; 
-                                                    line-height: 1.2;
-                                                    letter-spacing: 0.02em;
-                                                    color: #2e2f42;
-                                                    background-color: #FFFFFF;
-                                                }
-                                                .portfolio-text { font-weight: 400;
-                                                    font-size: 16px;
-                                                   line-height: 24px; 
-                                                    line-height: 1.5;
-                                                    letter-spacing: 0.02em;
-                                                    color: #434455;
-                                                }
-                                                .footer { background: #2e2f42; }
+
+  /*portfolio*/
+
+  .portfolio-section{padding-top: 120px;
+     padding-bottom: 120px }
+
+  .portfolio-container  {  padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    width: 1128px;
+
+  }
+
+
+.portfolio { background-color: #FFFFFF ;}
+
+.portfolio-list { display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;} 
+    
+
+.portfolio-titel { 
+
+background-color: #FFFFFF;
+ text-transform: capitalize;  
+ /* что єто? */
+font: 700 36px / 1.11 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+margin-bottom: 72px;
+ }
+         
+          .portfolio-subtitle {font-weight: 500;
+       font-size: 20px;
+               line-height: 24px; 
+             line-height: 1.2;
+               letter-spacing: 0.02em;
+              color: #2e2f42;
+              background-color: #FFFFFF;
+          }
+          .portfolio-text { font-weight: 400;
+              font-size: 16px;
+             line-height: 24px; 
+              line-height: 1.5;
+              letter-spacing: 0.02em;
+              color: #434455;
+          }
+
+
+
+ /*portfolio*/
+
+
+
+          .footer { background: #2e2f42; }
                                                 .footer-logo-text { font-weight: 400;
                                                     font-size: 16px;
                                                     line-height: 24px; 
