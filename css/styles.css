@@ -111,7 +111,8 @@ font-weight: 400;font-size: 16px;
 letter-spacing: 0.02em;
   color: #434455;
 display: block;         
- padding: 24px;
+ padding-top:  24px;
+ padding-bottom: 24px;
   }
 
 .contacts-list { display: flex;
@@ -141,16 +142,11 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 color: #fff;
 margin-bottom: 48px; 
+text-align: center;
  }
- .container-hero {
-display: flex;
-background-color: #2E2F42;
-flex-direction: column;
-/*justify-content: space-between; */
-align-items: center;
-padding-top: 188px; 
-padding-bottom: 188px;
-}
+
+
+
 
 
 
@@ -159,7 +155,7 @@ padding-bottom: 188px;
 display:flex;
 justify-content: center;
 align-items: center;
-height: 598px;                  
+                 
 background: #2e2f42; }
 
 
@@ -249,18 +245,15 @@ margin-bottom: 8px;
  }
 
 .advantages-item { 
-display: flex;
-font-weight:500;
-font-size: 20px;
-line-height: 24px; 
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42; 
-align-items: center;
-gap: 24px; 
+
+
+
+
+
+
 width: calc((100% - 72px) / 4);
-flex-direction: column;
-align-items: flex-start;
+
+
 
 
 
@@ -268,13 +261,12 @@ align-items: flex-start;
 
 
  .advantages-text
- {font-weight: 400;
-font-size: 16px;
- line-height: 24px; 
+ {
+
  line-height: 1.5;
  letter-spacing: 0.02em;
   color: #434455; 
-  text-transform: capitalize;
+  
   justify-content: flex-start; }
 /*advantage*/
 
@@ -305,11 +297,11 @@ font-size: 16px;
  }
 
 .team-item  { background-color: #FFFFFF ;
-display: flex; 
-gap: 24px;
+
+
 border-radius: 0px 0px 4px 4px; 
 width: calc((100% - 72px) / 4); 
-flex-direction: column
+
 
 }
 
@@ -462,7 +454,7 @@ margin-bottom: 8px ;
   line-height: 1.5;
  letter-spacing: 0.02em;
  color: #f4f4fd;
-    font-family: "Raleway", sans-serif;
+    
     max-width:264px; }
 
 .footer-logo-part {  font-weight: 700;
