@@ -386,7 +386,6 @@ text-align: center;
 .container-portfolio-titel{ }
 
 .portfolio-titel { 
-
 background-color: #FFFFFF;
  text-transform: capitalize;  
  /* что єто? */
@@ -396,7 +395,9 @@ text-align: center;
 color: #2e2f42;
 margin-bottom: 72px;
  }
-         
+ .portfolio-titel {
+  margin-bottom: 72px;
+ }
 .portfolio-list { display: flex;
 flex-wrap: wrap;
 column-gap: 24px;
